@@ -5,10 +5,21 @@ const Women = () => {
   return (
     <div>
       <p>Women Items:</p>
-      <NavLink to="/women/grooming">Grooming</NavLink><br />
-      <NavLink to="/women/shirt">Shirt</NavLink><br />
-      <NavLink to="/women/trouser">Trouser</NavLink><br />
-      <NavLink to="/women/jewellery">Jewellery</NavLink>
+
+      <ul>
+        <li>
+          <NavLink to="/women/grooming">Grooming</NavLink>
+        </li>
+        <li>
+          <NavLink to="/women/shirt">Shirt</NavLink>
+        </li>
+        <li>
+          <NavLink to="/women/trouser">Trouser</NavLink>
+        </li>
+        <li>
+          <NavLink to="/women/jewellery">Jewellery</NavLink>
+        </li>
+      </ul>
     </div>
   );
 };
